@@ -3,10 +3,11 @@
 import scrapy
 from scrapy.selector import Selector
 from scrapy import Request
-from tutorial2.items import Tutorial2Item
 import urllib.request
 import re
 import json
+
+from douban_movies.items import Tutorial2Item
 
 '''
   使用Scrapy抓取豆瓣电影简介，评分、简介信息图片
